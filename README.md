@@ -38,8 +38,9 @@ PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
                   
        DAHA SONRA ARACIKISLAR MATRİSİ YAZDIRILDI.
        
-       SON OLARAK BU ARACIKISLARI ÇÖZMEK İÇİN SOLVEPOSTFİX FONKSİYONU OLUŞTURULDU.BU FONKSİYON ŞU İŞLEMLERİ GERÇEKLEŞTİRDİ.
-            ARACIKISLAR MATRİSİ SATIR SATIR VE HER BİR SATIR İÇİN BÜTÜN SÜTUNLAR DOLAŞILARAK İFADE OKUNDU.  
+       SON OLARAK BU ARACIKISLARI ÇÖZMEK İÇİN SOLVEPOSTFİX FONKSİYONU OLUŞTURULDU.BU FONKSİYON ŞU İŞLEMLERİ 
+            GERÇEKLEŞTİRDİ.ARACIKISLAR MATRİSİ SATIR SATIR VE HER BİR SATIR İÇİN BÜTÜN SÜTUNLAR DOLAŞILARAK 
+            İFADE OKUNDU.  
          Eğer o anda bakılan karakter:  
          sayı  ise : sayı  yığına  push edildi. 
          değişken ise  : değişkenin değeri yığına  push edildi.
