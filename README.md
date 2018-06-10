@@ -44,10 +44,11 @@ PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
          Eğer o anda bakılan karakter:  
          sayı  ise : sayı  yığına  push edildi. 
          değişken ise  : değişkenin değeri yığına  push edildi.
-         işlem işareti ise : yığının üstündeki iki değer pop edildi ve bu işarete göre iki sayı arasında işlem yapıldı.
+         işlem işareti ise : yığının üstündeki iki değer pop edildi ve bu işarete göre iki sayı arasında işlem 
+            yapıldı.
          İşlem sonucu yığının en üstüne yerleştirildi.
-         BÜTÜN İFADE BİTİNCE YIĞINDA SADECE BİR ADET SAYI KALDI.OKUNAN FONKSİYON HANGİ DEĞİŞKENE AİT İSE O DEĞİŞKENİN 
-            DEĞERİ YIĞINDA KALAN DEĞER İLE DEĞİŞTİRİLDİ
+         BÜTÜN İFADE BİTİNCE YIĞINDA SADECE BİR ADET SAYI KALDI.OKUNAN FONKSİYON HANGİ DEĞİŞKENE AİT İSE 
+            O DEĞİŞKENİN DEĞERİ YIĞINDA KALAN DEĞER İLE DEĞİŞTİRİLDİ
             
          SON OLARAK BÜTÜN DEĞİŞKEN DEĞERLERİ EKRANA YAZDIRILDI VE İŞLEM SONLANDIRILDI.
                  
