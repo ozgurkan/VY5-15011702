@@ -33,12 +33,19 @@ PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
                   ifadeler bittiğinde : yığındaki işaretler sıra ile pop edilerek postfix ifadeye eklendi.
                   Son olarak bu postfix ifade ekrana yazdırıldı ve ARACIKISLAR matrisine eklendi.
                   
- 
+       DAHA SONRA ARACIKISLAR MATRİSİ YAZDIRILDI.
+       
+       SON OLARAK BU ARACIKISLARI ÇÖZMEK İÇİN SOLVEPOSTFİX FONKSİYONU OLUŞTURULDU.BU FONKSİYON ŞU İŞLEMLERİ GERÇEKLEŞTİRDİ.
+            ARACIKISLAR MATRİSİ SATIR SATIR VE HER BİR SATIR İÇİN BÜTÜN SÜTUNLAR DOLAŞILARAK İFADE OKUNDU.  
+         Eğer o anda bakılan karakter:  
+         sayı  ise : sayı  yığına  push edildi. 
+         değişken ise  : değişkenin değeri yığına  push edildi.
+         işlem işareti ise : yığının üstündeki iki değer pop edildi ve bu işarete göre iki sayı arasında işlem yapıldı.İşlem sonucu                 yığının en üstüne yerleştirildi.
+         BÜTÜN İFADE BİTİNCE YIĞINDA SADECE BİR ADET SAYI KALDI.OKUNAN FONKSİYON HANGİ DEĞİŞKENE AİT İSE O DEĞİŞKENİN DEĞERİ YIĞINDA 
+            KALAN DEĞER İLE DEĞİŞTİRİLDİ
             
-    
-    
-    
+         SON OLARAK BÜTÜN DEĞİŞKEN DEĞERLERİ EKRANA YAZDIRILDI VE İŞLEM SONLANDIRILDI.
+                 
   
-
-  ÖZGÜR KAN
-  15011702
+                                                        ÖZGÜR  KAN
+                                                         15011702
