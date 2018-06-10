@@ -4,21 +4,21 @@ Konu : Aritmetik Hesaplayıcı
 
 PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
 
-  ÖNCELİKLE İNPUT.TXT DOSYASINDAN BİLGİLER TEK TEK KARAKTER ŞEKLİNDE OKUNDU VE BU BİLGİLER CHAR TÜRÜNDE BİR MATRİSE 
+    ÖNCELİKLE İNPUT.TXT DOSYASINDAN BİLGİLER TEK TEK KARAKTER ŞEKLİNDE OKUNDU VE BU BİLGİLER CHAR TÜRÜNDE BİR MATRİSE 
         SIRASIYLA KAYDEDİLDİ.DAHA SONRA OKUDUĞUMUZ BİLGİLERİ GÖRMEK İÇİN BU MATRİS EKRANA YAZDIRILDI.
     
-  SONRA GİRİLEN FONKSİYON VE DEĞİŞKENLERİ AYIRMAK İÇİN FİND_VARİABLE İSİMLİ FONKSİYON OLUŞTURULDU.BU FONKSİYON 
+    SONRA GİRİLEN FONKSİYON VE DEĞİŞKENLERİ AYIRMAK İÇİN FİND_VARİABLE İSİMLİ FONKSİYON OLUŞTURULDU.BU FONKSİYON 
         OLUŞTURDUĞUMUZ MATRİSİ SATIR SATIR OKUDU.EĞER OKUNAN SATIR BİR DEĞİŞKEN İSE DEİŞKENİN ADI DEĞİŞKENLER DİZİSİNE,
         DEĞERİ İSE DEĞİŞKENDEĞERLERİ İSİMLİ DİZİYE KAYDEDİLDİ.EĞER OKUNAN SATIR BİR FONKSİYON İSE BU FONKSİYON 
         FONKSİYONMATRİSİ İSİMLİ BİR MATRSİE KAYDEDİLDİ.BU FONKSİYON SONUCUNDA ELİMİZDE DEĞİŞKENLER VE 
         DEĞİŞKEN DEĞERLERİ DİYE İKİ AYRI DİZİ VE SADECE FONKSİYONLARIN BULUNDUĞU BİR MATRİS OLUŞMUŞ OLDU.
         BU FONKSİYONDAN ÇIKMADAN ÖNCE DEĞİŞKENLER VE DEĞİŞKEN DEĞERLERİ VE FONKSİYONMATRİSİ EKRANA YAZDIRILDI.
         
-  DAHA SONRA FİNDPOSTFİX İSİMLİ FONKSİYON OLUŞTURULDU.BU FONKSİYON OLUŞTURULAN FONKSİYON MATRİSİNİ SATIR SATIR 
+    DAHA SONRA FİNDPOSTFİX İSİMLİ FONKSİYON OLUŞTURULDU.BU FONKSİYON OLUŞTURULAN FONKSİYON MATRİSİNİ SATIR SATIR 
         GEZEREK O SATIRDAKİ FONKSİYONUN POSTFİX İFADESİNİ BULDU VE EKRANA YAZDIRDI VE ARACIKISLAR MATRİSİNE BU POSTFİX
         İFADEYİ EKLEDİ.BÖYLECE ELİMİZDE TÜM FONKSİYONLARIN POSTFİX İFADESİNİN BULUNDUĞU ARACIKISLAR MATRİSİ ELDE EDİLDİ.
         
-   -FİNDPOSTFİX FONKSİYONU POSTFİX İFADEYİ BULMAK İÇİN ŞU İŞLEMLERİ UYGULADI:
+    -FİNDPOSTFİX FONKSİYONU POSTFİX İFADEYİ BULMAK İÇİN ŞU İŞLEMLERİ UYGULADI:
                 1. FONKSİYON MATRİSİNDEN BİR SATIR İÇİN O SATIRIN BÜTÜN SÜTUNLARINI GEZDİ.  
                     Eğer o anda bakılan bilgi: sol parantez ise : sol parantez yığına  push edildi.  
                                                 sağ parantez ise : sol parantez  çıkana kadar yığından pop yapıldı. 
@@ -33,12 +33,12 @@ PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
                         iii.) Stackten pop edilen işaretler postfix ifadeye eklendi.  
                         iv.) İşlem işareti  yığına  push edildi.  
                   
-   ifadeler bittiğinde : yığındaki işaretler sıra ile pop edilerek postfix ifadeye eklendi.
-   Son olarak bu postfix ifade ekrana yazdırıldı ve ARACIKISLAR matrisine eklendi.
+     ifadeler bittiğinde : yığındaki işaretler sıra ile pop edilerek postfix ifadeye eklendi.
+     Son olarak bu postfix ifade ekrana yazdırıldı ve ARACIKISLAR matrisine eklendi.
                   
-   DAHA SONRA ARACIKISLAR MATRİSİ YAZDIRILDI.
+     DAHA SONRA ARACIKISLAR MATRİSİ YAZDIRILDI.
        
-   SON OLARAK BU ARACIKISLARI ÇÖZMEK İÇİN SOLVEPOSTFİX FONKSİYONU OLUŞTURULDU.BU FONKSİYON ŞU İŞLEMLERİ 
+     SON OLARAK BU ARACIKISLARI ÇÖZMEK İÇİN SOLVEPOSTFİX FONKSİYONU OLUŞTURULDU.BU FONKSİYON ŞU İŞLEMLERİ 
         GERÇEKLEŞTİRDİ.ARACIKISLAR MATRİSİ SATIR SATIR VE HER BİR SATIR İÇİN BÜTÜN SÜTUNLAR DOLAŞILARAK 
         İFADE OKUNDU.  
          Eğer o anda bakılan karakter:  
@@ -50,7 +50,7 @@ PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
          BÜTÜN İFADE BİTİNCE YIĞINDA SADECE BİR ADET SAYI KALDI.OKUNAN FONKSİYON HANGİ DEĞİŞKENE AİT İSE 
             O DEĞİŞKENİN DEĞERİ YIĞINDA KALAN DEĞER İLE DEĞİŞTİRİLDİ
             
-  SON OLARAK BÜTÜN DEĞİŞKEN DEĞERLERİ EKRANA YAZDIRILDI VE İŞLEM SONLANDIRILDI.
+    SON OLARAK BÜTÜN DEĞİŞKEN DEĞERLERİ EKRANA YAZDIRILDI VE İŞLEM SONLANDIRILDI.
                  
   
                                                         ÖZGÜR  KAN
