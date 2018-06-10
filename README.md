@@ -26,8 +26,10 @@ PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
                    Parantezler postfix’e eklenmedi.
                    sayı ise : postfix ifadeye eklendi.  
                    işlem işareti ise :  
-                        i.) yığının en üstünde sol parantez varsa veya en üstteki işaretin önceliği gelen işaretten düşük ise işlem işareti yığına  push edildi.  
-                        ii.) Gelen işaretin önceliği en üstteki işaretin önceliğinden daha düşük ise yığındaki gelen işaretten yüksek öncelikli bütün işaretler için  pop işlemi yapıldı.   
+                        i.) yığının en üstünde sol parantez varsa veya en üstteki işaretin önceliği gelen işaretten 
+                                düşük ise işlem işareti yığına  push edildi.  
+                        ii.) Gelen işaretin önceliği en üstteki işaretin önceliğinden daha düşük ise yığındaki gelen
+                                işaretten yüksek öncelikli bütün işaretler için  pop işlemi yapıldı.   
                         iii.) Stackten pop edilen işaretler postfix ifadeye eklendi.  
                         iv.) İşlem işareti  yığına  push edildi.  
                   
@@ -43,8 +45,8 @@ PROBLEMİ ÇÖZMEK İÇİN UYGULANAN YÖNTEMLER:
          değişken ise  : değişkenin değeri yığına  push edildi.
          işlem işareti ise : yığının üstündeki iki değer pop edildi ve bu işarete göre iki sayı arasında işlem yapıldı.
          İşlem sonucu yığının en üstüne yerleştirildi.
-         BÜTÜN İFADE BİTİNCE YIĞINDA SADECE BİR ADET SAYI KALDI.OKUNAN FONKSİYON HANGİ DEĞİŞKENE AİT İSE O DEĞİŞKENİN DEĞERİ YIĞINDA 
-            KALAN DEĞER İLE DEĞİŞTİRİLDİ
+         BÜTÜN İFADE BİTİNCE YIĞINDA SADECE BİR ADET SAYI KALDI.OKUNAN FONKSİYON HANGİ DEĞİŞKENE AİT İSE O DEĞİŞKENİN 
+            DEĞERİ YIĞINDA KALAN DEĞER İLE DEĞİŞTİRİLDİ
             
          SON OLARAK BÜTÜN DEĞİŞKEN DEĞERLERİ EKRANA YAZDIRILDI VE İŞLEM SONLANDIRILDI.
                  
