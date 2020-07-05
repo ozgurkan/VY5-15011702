@@ -1,4 +1,5 @@
 # 2017-2018 Bahar Yarıyılı  Veri yapıları ve Algoritmalar Dersi Final Ödevi  
+Ders Yürütücüsü: Prof. Yahya KARSLIGİL
 # Konu : Aritmetik Hesaplayıcı
 # Problem: Bu ödevde, yığın(stack) veri yapısını kullanarak verilen önceki işlem sonuçlarını da kullanarak aritmetik işlemleri yapan bir sistem tasarlanacaktır.   
  
