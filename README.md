@@ -65,7 +65,7 @@ Postfix : a b 4 + *  Yığın :   Boş
 
 Ara Çıkış :    a b 4 + *   
  
-2.2 Postfix İfadenin Çözülmesi  :  
+ # 2.2 Postfix İfadenin Çözülmesi  :  
 İlk aşamanın sonunda elde edilen postfix ifadeyi yığın  veri yapısı kullanarak  çözen  işlemi yapan fonkisyonu yazınız.   
 İşlem Adımları :  
 Postfix ifade soldan sağa doğru değerlendirilir.  
